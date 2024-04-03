@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>웹 스터디 ::: 김진우</title>
     <style>
+        dt {
+            font-weight: bold;
+        }
         div {
             display: inline-block;
             border-top: solid 4px gray;
@@ -18,10 +21,10 @@
         div.contents {
             background-color: gold;
         }
-        div#ootd{
+        div#ootd {
             background-color: cyan;
         }
-        p{
+        p {
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         }
     </style>
@@ -35,16 +38,22 @@
     </p>
     <hr>
     <div class="contents">
-        <p>영화소개</p>
-        <p>영화를 소개하는 부분입니다.</p>
+        <dl>
+            <dt>영화소개</dt>
+            <dd>영화를 소개하는 부분입니다.</dd>
+        </dl>
     </div>
     <div id="ootd">
-        <p>오늘의 패션</p>
-        <p>오늘의 패션/코디를 소개하는 부분입니다.</p>
+        <dl>
+            <dt>오늘의 패션</dt>
+            <dd>오늘의 패션/코디를 소개하는 부분입니다.</dd>
+        </dl>
     </div>
     <div class="contents">
-        <p>넷플릭스 소개</p>
-        <p>넷플릭스 시리즈를 소개하는 부분입니다.</p>
+        <dl>
+            <dt>넷플릭스 소개</dt>
+            <dd>넷플릭스 시리즈를 소개하는 부분입니다.</dd>
+        </dl>        
     </div>
 </body>
 </html>
