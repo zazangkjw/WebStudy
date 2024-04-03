@@ -45,8 +45,16 @@
 
     <div id="login_form">
         <form action="#" method="get">
-            아이디 입력: <input type="text" name="" id="">
-            패스워드 입력: <input type="password" name="" id="">
+            <label for="login_id">아이디 입력: </label>
+            <input type="text" name="login_id" id="login_id" value="아이디">
+
+            <label for="login_id">아이디 입력: </label>
+            <input type="text" name="login_id" id="login_id" placeholder="아이디">
+
+            <label for="">
+                패스워드 입력: <input type="password" name="" id="">
+            </label>
+
             전화번호: <input type="tel" name="" id="">
             숫자: <input type="number" name="" id="">
             웹주소: <input type="url" name="" id="">
@@ -65,6 +73,9 @@
             시: <input type="time" name="" id="">
             범위: <input type="range" name="" id="">
             색상 선택: <input type="color" name="" id="">
+            <textarea name="" id="" cols="30" rows="10">
+                하고 싶은 말을 쓰세요
+            </textarea>
             <input type="submit" value="로그인 하기">
             <input type="reset" value="양식 초기화">
         </form>
